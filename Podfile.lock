@@ -1,0 +1,18 @@
+PODS:
+  - Alamofire (4.6.0)
+  - Device (3.0.3)
+  - ZAlertView (1.0.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - Device (~> 3.0.3)
+  - ZAlertView
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  Device: 9a5264ee4e0f392e7153d2c46b10c8df46b7aad2
+  ZAlertView: 59fffdb4e37a01df461835566d5101052b8af953
+
+PODFILE CHECKSUM: 9acfad1488d8d7fe07f117a3ffa07772f5fa168d
+
+COCOAPODS: 1.4.0

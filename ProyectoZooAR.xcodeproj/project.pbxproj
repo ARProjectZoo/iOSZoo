@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30C3A15ABEC1C8DA9796519E /* Pods_ProyectoZooAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F854F02FC3EF9A727CE438 /* Pods_ProyectoZooAR.framework */; };
+		6F4DB1C42020CF2F00D0F4BE /* Responses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4DB1C32020CF2F00D0F4BE /* Responses.swift */; };
+		6F5DEE3620224C7B0030E378 /* ZooRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5DEE3520224C7B0030E378 /* ZooRequest.swift */; };
+		6F9284272023585700B1BA5B /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9284262023585700B1BA5B /* Story.swift */; };
+		6FF5B1F020229CE3001CC6F0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF5B1EF20229CE3001CC6F0 /* User.swift */; };
+		7F07B5082028CEC500920D6E /* CellsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F07B5072028CEC500920D6E /* CellsInfo.swift */; };
+		7F07B50A2028D26000920D6E /* MyCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F07B5092028D26000920D6E /* MyCollectionView.swift */; };
+		7F07B50D2028E4B100920D6E /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F07B50C2028E4B100920D6E /* DataStore.swift */; };
+		7F13AD582016511A0069C86F /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F13AD572016511A0069C86F /* InfoViewController.swift */; };
+		7F13AD5A2016512E0069C86F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F13AD592016512E0069C86F /* ProfileViewController.swift */; };
+		7F18A5881F967E6D000328FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F18A5871F967E6D000328FD /* AppDelegate.swift */; };
+		7F18A58A1F967E6D000328FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F18A5891F967E6D000328FD /* ViewController.swift */; };
+		7F18A58D1F967E6D000328FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F18A58B1F967E6D000328FD /* Main.storyboard */; };
+		7F18A58F1F967E6D000328FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F18A58E1F967E6D000328FD /* Assets.xcassets */; };
+		7F18A5921F967E6D000328FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F18A5901F967E6D000328FD /* LaunchScreen.storyboard */; };
+		7F5F9E4B1FCC662A00B63B03 /* ErrorMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5F9E4A1FCC662A00B63B03 /* ErrorMessages.swift */; };
+		7FA89290201A54DA005DAA8D /* CreateStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA8928F201A54DA005DAA8D /* CreateStoryViewController.swift */; };
+		7FB924662017871B00A3D23A /* ForgotPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB924652017871B00A3D23A /* ForgotPassViewController.swift */; };
+		7FB924682017BEF700A3D23A /* CellStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB924672017BEF700A3D23A /* CellStory.swift */; };
+		7FB9611E201B840B008CCC3C /* ViewStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB9611D201B840B008CCC3C /* ViewStoryViewController.swift */; };
+		7FBE6937200FAC6F00511047 /* appTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBE6936200FAC6F00511047 /* appTools.swift */; };
+		7FBE6939200FCD7C00511047 /* ChangePassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBE6938200FCD7C00511047 /* ChangePassViewController.swift */; };
+		7FD3D469200E4E37007A7B2D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD3D468200E4E37007A7B2D /* LoginViewController.swift */; };
+		7FD3D46B200E4E47007A7B2D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD3D46A200E4E47007A7B2D /* RegisterViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01F854F02FC3EF9A727CE438 /* Pods_ProyectoZooAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProyectoZooAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1ABE11A70C296319A4512D /* Pods-ReproductorMusicaJulio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReproductorMusicaJulio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReproductorMusicaJulio/Pods-ReproductorMusicaJulio.debug.xcconfig"; sourceTree = "<group>"; };
+		6F4DB1C32020CF2F00D0F4BE /* Responses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Responses.swift; sourceTree = "<group>"; };
+		6F5DEE3520224C7B0030E378 /* ZooRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZooRequest.swift; sourceTree = "<group>"; };
+		6F9284262023585700B1BA5B /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		6FF5B1EF20229CE3001CC6F0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7F07B5072028CEC500920D6E /* CellsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellsInfo.swift; sourceTree = "<group>"; };
+		7F07B5092028D26000920D6E /* MyCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionView.swift; sourceTree = "<group>"; };
+		7F07B50C2028E4B100920D6E /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		7F13AD572016511A0069C86F /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		7F13AD592016512E0069C86F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7F18A5841F967E6D000328FD /* ProyectoZooAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoZooAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F18A5871F967E6D000328FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F18A5891F967E6D000328FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F18A58C1F967E6D000328FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F18A58E1F967E6D000328FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F18A5911F967E6D000328FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F18A5931F967E6E000328FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F5F9E4A1FCC662A00B63B03 /* ErrorMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorMessages.swift; sourceTree = "<group>"; };
+		7FA8928F201A54DA005DAA8D /* CreateStoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateStoryViewController.swift; sourceTree = "<group>"; };
+		7FB924652017871B00A3D23A /* ForgotPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassViewController.swift; sourceTree = "<group>"; };
+		7FB924672017BEF700A3D23A /* CellStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellStory.swift; sourceTree = "<group>"; };
+		7FB9611D201B840B008CCC3C /* ViewStoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStoryViewController.swift; sourceTree = "<group>"; };
+		7FBE6936200FAC6F00511047 /* appTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appTools.swift; sourceTree = "<group>"; };
+		7FBE6938200FCD7C00511047 /* ChangePassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePassViewController.swift; sourceTree = "<group>"; };
+		7FD3D468200E4E37007A7B2D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7FD3D46A200E4E47007A7B2D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		9F56C16AAD9B7503A6F14985 /* Pods-ProyectoZooAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoZooAR.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProyectoZooAR/Pods-ProyectoZooAR.release.xcconfig"; sourceTree = "<group>"; };
+		C8A4C797EF1BB1BC63F52ED5 /* Pods_ReproductorMusicaJulio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReproductorMusicaJulio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E13E6C213D45C63F7D545F30 /* Pods-ReproductorMusicaJulio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReproductorMusicaJulio.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReproductorMusicaJulio/Pods-ReproductorMusicaJulio.release.xcconfig"; sourceTree = "<group>"; };
+		EC12EFED2E76C047ABF9CAF9 /* Pods-ProyectoZooAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoZooAR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProyectoZooAR/Pods-ProyectoZooAR.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F18A5811F967E6D000328FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C3A15ABEC1C8DA9796519E /* Pods_ProyectoZooAR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27E052531524F48A2D7C4098 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8A4C797EF1BB1BC63F52ED5 /* Pods_ReproductorMusicaJulio.framework */,
+				01F854F02FC3EF9A727CE438 /* Pods_ProyectoZooAR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F02C9A32020BB2200CE553E /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				7FD3D468200E4E37007A7B2D /* LoginViewController.swift */,
+				7FD3D46A200E4E47007A7B2D /* RegisterViewController.swift */,
+				7FB924652017871B00A3D23A /* ForgotPassViewController.swift */,
+				7FBE6938200FCD7C00511047 /* ChangePassViewController.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		6F02C9A42020BB5400CE553E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				7F13AD592016512E0069C86F /* ProfileViewController.swift */,
+				7FA8928F201A54DA005DAA8D /* CreateStoryViewController.swift */,
+				7FB9611D201B840B008CCC3C /* ViewStoryViewController.swift */,
+				7FB924672017BEF700A3D23A /* CellStory.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		6F02C9A52020BBB700CE553E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7F5F9E4A1FCC662A00B63B03 /* ErrorMessages.swift */,
+				7FBE6936200FAC6F00511047 /* appTools.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6F02C9A62020BBC800CE553E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6F9284262023585700B1BA5B /* Story.swift */,
+				6FF5B1EF20229CE3001CC6F0 /* User.swift */,
+				7F07B5092028D26000920D6E /* MyCollectionView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6F02C9A72020BBD000CE553E /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				7F07B50B2028E48B00920D6E /* Model_Info */,
+				7F13AD572016511A0069C86F /* InfoViewController.swift */,
+				7F07B5072028CEC500920D6E /* CellsInfo.swift */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		7F07B50B2028E48B00920D6E /* Model_Info */ = {
+			isa = PBXGroup;
+			children = (
+				7F07B50C2028E4B100920D6E /* DataStore.swift */,
+			);
+			path = Model_Info;
+			sourceTree = "<group>";
+		};
+		7F18A57B1F967E6D000328FD = {
+			isa = PBXGroup;
+			children = (
+				7F18A5861F967E6D000328FD /* ProyectoZooAR */,
+				7F18A5851F967E6D000328FD /* Products */,
+				AC3DE88428563864A1D16E97 /* Pods */,
+				27E052531524F48A2D7C4098 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7F18A5851F967E6D000328FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F18A5841F967E6D000328FD /* ProyectoZooAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F18A5861F967E6D000328FD /* ProyectoZooAR */ = {
+			isa = PBXGroup;
+			children = (
+				7F18A5871F967E6D000328FD /* AppDelegate.swift */,
+				7F18A5891F967E6D000328FD /* ViewController.swift */,
+				6F02C9A62020BBC800CE553E /* Classes */,
+				6F02C9A52020BBB700CE553E /* Data */,
+				6F02C9A32020BB2200CE553E /* LogIn */,
+				6F02C9A42020BB5400CE553E /* Profile */,
+				6F02C9A72020BBD000CE553E /* Info */,
+				7F18A58B1F967E6D000328FD /* Main.storyboard */,
+				7F18A5901F967E6D000328FD /* LaunchScreen.storyboard */,
+				7F18A58E1F967E6D000328FD /* Assets.xcassets */,
+				7F18A5931F967E6E000328FD /* Info.plist */,
+				6F4DB1C32020CF2F00D0F4BE /* Responses.swift */,
+				6F5DEE3520224C7B0030E378 /* ZooRequest.swift */,
+			);
+			path = ProyectoZooAR;
+			sourceTree = "<group>";
+		};
+		AC3DE88428563864A1D16E97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F1ABE11A70C296319A4512D /* Pods-ReproductorMusicaJulio.debug.xcconfig */,
+				E13E6C213D45C63F7D545F30 /* Pods-ReproductorMusicaJulio.release.xcconfig */,
+				EC12EFED2E76C047ABF9CAF9 /* Pods-ProyectoZooAR.debug.xcconfig */,
+				9F56C16AAD9B7503A6F14985 /* Pods-ProyectoZooAR.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F18A5831F967E6D000328FD /* ProyectoZooAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F18A5961F967E6E000328FD /* Build configuration list for PBXNativeTarget "ProyectoZooAR" */;
+			buildPhases = (
+				FB6167CD7B834809374FFCB1 /* [CP] Check Pods Manifest.lock */,
+				7F18A5801F967E6D000328FD /* Sources */,
+				7F18A5811F967E6D000328FD /* Frameworks */,
+				7F18A5821F967E6D000328FD /* Resources */,
+				6EF09CA242E1B861BEE3C9BE /* [CP] Embed Pods Frameworks */,
+				4340BD67851BEF4DD90B5DF3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProyectoZooAR;
+			productName = ReproductorMusicaJulio;
+			productReference = 7F18A5841F967E6D000328FD /* ProyectoZooAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F18A57C1F967E6D000328FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = julio;
+				TargetAttributes = {
+					7F18A5831F967E6D000328FD = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7F18A57F1F967E6D000328FD /* Build configuration list for PBXProject "ProyectoZooAR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F18A57B1F967E6D000328FD;
+			productRefGroup = 7F18A5851F967E6D000328FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F18A5831F967E6D000328FD /* ProyectoZooAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F18A5821F967E6D000328FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F18A5921F967E6D000328FD /* LaunchScreen.storyboard in Resources */,
+				7F18A58F1F967E6D000328FD /* Assets.xcassets in Resources */,
+				7F18A58D1F967E6D000328FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4340BD67851BEF4DD90B5DF3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProyectoZooAR/Pods-ProyectoZooAR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EF09CA242E1B861BEE3C9BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ProyectoZooAR/Pods-ProyectoZooAR-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Device/Device.framework",
+				"${BUILT_PRODUCTS_DIR}/ZAlertView/ZAlertView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Device.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZAlertView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProyectoZooAR/Pods-ProyectoZooAR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB6167CD7B834809374FFCB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProyectoZooAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F18A5801F967E6D000328FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4DB1C42020CF2F00D0F4BE /* Responses.swift in Sources */,
+				7FB924682017BEF700A3D23A /* CellStory.swift in Sources */,
+				6F9284272023585700B1BA5B /* Story.swift in Sources */,
+				7FD3D469200E4E37007A7B2D /* LoginViewController.swift in Sources */,
+				7FD3D46B200E4E47007A7B2D /* RegisterViewController.swift in Sources */,
+				6F5DEE3620224C7B0030E378 /* ZooRequest.swift in Sources */,
+				7F07B50A2028D26000920D6E /* MyCollectionView.swift in Sources */,
+				7FB924662017871B00A3D23A /* ForgotPassViewController.swift in Sources */,
+				6FF5B1F020229CE3001CC6F0 /* User.swift in Sources */,
+				7FBE6939200FCD7C00511047 /* ChangePassViewController.swift in Sources */,
+				7F07B5082028CEC500920D6E /* CellsInfo.swift in Sources */,
+				7FA89290201A54DA005DAA8D /* CreateStoryViewController.swift in Sources */,
+				7F13AD582016511A0069C86F /* InfoViewController.swift in Sources */,
+				7F07B50D2028E4B100920D6E /* DataStore.swift in Sources */,
+				7F18A58A1F967E6D000328FD /* ViewController.swift in Sources */,
+				7F13AD5A2016512E0069C86F /* ProfileViewController.swift in Sources */,
+				7FBE6937200FAC6F00511047 /* appTools.swift in Sources */,
+				7F5F9E4B1FCC662A00B63B03 /* ErrorMessages.swift in Sources */,
+				7F18A5881F967E6D000328FD /* AppDelegate.swift in Sources */,
+				7FB9611E201B840B008CCC3C /* ViewStoryViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F18A58B1F967E6D000328FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F18A58C1F967E6D000328FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F18A5901F967E6D000328FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F18A5911F967E6D000328FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F18A5941F967E6E000328FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F18A5951F967E6E000328FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F18A5971F967E6E000328FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC12EFED2E76C047ABF9CAF9 /* Pods-ProyectoZooAR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProyectoZooAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.proyecto.ZooAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7F18A5981F967E6E000328FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F56C16AAD9B7503A6F14985 /* Pods-ProyectoZooAR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProyectoZooAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.proyecto.ZooAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F18A57F1F967E6D000328FD /* Build configuration list for PBXProject "ProyectoZooAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F18A5941F967E6E000328FD /* Debug */,
+				7F18A5951F967E6E000328FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F18A5961F967E6E000328FD /* Build configuration list for PBXNativeTarget "ProyectoZooAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F18A5971F967E6E000328FD /* Debug */,
+				7F18A5981F967E6E000328FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F18A57C1F967E6D000328FD /* Project object */;
+}
